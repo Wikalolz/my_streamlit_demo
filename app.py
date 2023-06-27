@@ -8,7 +8,7 @@ import json
 import seaborn as sns
 
 # Load some data
-df = pd.read_csv('/data/20200306_hundehalter.csv')
+df = pd.read_csv('data/20200306_hundehalter.csv')
 
 # Add title and header
 st.title("Introduction to Streamlit")
